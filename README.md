@@ -12,7 +12,7 @@
 
 shell:  
 pod spec create WinningModule  
-pod repo add WinningModule https://e.coding.net/winningmodulelib/WinningModuleLib.git  
+pod repo add WinningModule.podspec https://e.coding.net/winningmodulelib/WinningModuleLib.git  
 git tag -m"pod spec" "0.0.1"  
 git push origin --tags  
 pod trunk me(login in)  
